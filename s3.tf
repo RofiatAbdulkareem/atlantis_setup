@@ -5,3 +5,7 @@ resource "aws_s3_bucket" "ecommerce_raw" {
 resource "aws_s3_bucket" "new_test_bucket" {
   bucket = "new_test_bucket"
 }
+
+resource "aws_s3_bucket" "new_test_2" {
+  bucket = "new_test_2"
+}
